@@ -14,5 +14,7 @@ $routes->get('/pages/account', 'Pages::account');
 $routes->get('/pages/job_hunter', 'Pages::job_hunter');
 $routes->get('/pages/team', 'Pages::team');
 $routes->get('/pages/pembayaran', 'Pages::pembayaran');
+$routes->get('/pages/quiz', 'Pages::quiz');
 $routes->get('/class/cyber', 'Pages::cyber');
 $routes->get('/Form/add_team', 'Pages::add_team');
+$routes->post('/class/my_profile', 'Pages::my_profile');

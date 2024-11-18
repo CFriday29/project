@@ -91,61 +91,8 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    <div class="container-fluid py-2">
-
-        <div class="row">
-            <h3 class="mb-0 h4 font-weight-bolder">Dashboard</h3>
-        </div>
-        <div class="container">
-            <img src="<?= base_url('img/Banner.png')?>" width="100%" height="100%">
-
-        </div>
-        <!-- 1 -->
-
-        <!-- 2 -->
-
-        <!-- 3 -->
-    </div>
-    <div class="row align-i">
-        <div class="col-lg-4 col-md-4 mt-4 mb-4 text-center">
-            <div class="card">
-                <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/UI.png')?>"
-                    style=" margin: auto">
-                </img>
-                <div class="card-body">
-                    <h5 class="card-title">Machine Learning</h5>
-                    <p class="card-text">Belajar cara membangun model yang dapat membuat prediksi atau mengambil
-                        keputusan.</p>
-                    <a href="#" class="btn btn-primary">Lihat Kelas</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 mt-4 mb-4 text-center">
-            <div class="card">
-                <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/android.png')?>"
-                    style=" margin: auto">
-                </img>
-                <div class="card-body">
-                    <h5 class="card-title">Android Developer</h5>
-                    <p class="card-text">Mempelajari tentang komponen-komponen utama aplikasi android dan cara
-                        mengaturnya.</p>
-                    <a href="#" class="btn btn-primary">Lihat Kelas</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 mt-4 mb-4 text-center">
-            <div class="card">
-                <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/UX.png')?>"
-                    style=" margin: auto">
-                </img>
-                <div class="card-body">
-                    <h5 class="card-title">UI/UX</h5>
-                    <p class="card-text">Mencakup desain tampilan dan pengalaman pengguna pada produk digital.
-                    </p>
-                    <a href="#" class="btn btn-primary">Lihat Kelas</a>
-                </div>
-            </div>
-        </div>
+    <div class="row align-i mx-3 p-3 " style="height:20rem; border-radius:20px; background-color: #d9d9d9;">
+        testing
     </div>
 
     <?= $this->endSection();?>

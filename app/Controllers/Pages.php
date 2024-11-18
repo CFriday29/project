@@ -26,7 +26,10 @@ class Pages extends BaseController
     }
     public function account()
     {
-        return view('pages/account');
+        if ($this->request->getMethod() === 'post'){
+            return redirect()->to(site_url('class/my_profile'));
+        }       
+         return view('pages/account');
     }
     public function cyber()
     {
@@ -47,5 +50,13 @@ class Pages extends BaseController
     public function job_hunter()
     {
         return view('pages/job_hunter');
+    }
+    public function quiz()
+    {
+        return view('pages/quiz');
+    }
+    public function my_profile()
+    {
+        return view('class/my_profile');
     }
 }

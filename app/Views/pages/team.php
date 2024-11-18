@@ -22,7 +22,7 @@
     <!-- End Navbar -->
     <div class="container-fluid py-2">
         <div class="row">
-            <h3 class="mb-0 h4 font-weight-bolder">Free Class</h3>
+            <h3 class="mb-0 h4 font-weight-bolder">TEAM</h3>
         </div>
         <div class="d-flex justify-content-end">
          <button onclick="window.location.href='<?=base_url('Form/add_team')?>'" class="btn btn-primary">Add Team
@@ -30,112 +30,125 @@
         </div>
         <div class="row align-i">
             <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
+                <div class="card" style="border: none; border-radius: 20px;">
                     <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                        <div>
+                        <img class="" src=" <?= base_url('img/front.png')?>"
+                        style="border-radius: 100%; width: 150px; height: 150px;">
+                        </img>
+                        </div>
+                        <h3 class="mt-3">
+                            Jason Price
+                        </h3>
+                        <p style="opacity: 75%;">Admin</p>
+                        
+                        <div class="">
+                            <table class="w-100">
+                                <tbody>
+                                    <tr>
+                                        <td class="text-end">
+                                            Email :
+                                        </td>
+                                        <td>
+                                            example@gmail.com
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
+                <div class="card" style="border: none; border-radius: 20px;">
                     <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
-                    </div>
-                </div>
-            </div>      
-            <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
-                    <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
-                    </div>
-                </div>
-            </div>      
-            <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
-                    <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
-                    </div>
-                </div>
-            </div>                     
-        </div>
-        <div class="row align-i">
-            <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
-                    <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                        <div>
+                        <img class="" src=" <?= base_url('img/front.png')?>"
+                        style="border-radius: 100%; width: 150px; height: 150px;">
+                        </img>
+                        </div>
+                        <h3 class="mt-3">
+                            Jukkoe Sisao
+                        </h3>
+                        <p style="opacity: 75%;">CEO</p>
+                        
+                        <div class="">
+                            <table class="w-100">
+                                <tbody>
+                                    <tr>
+                                        <td class="text-end">
+                                            Email :
+                                        </td>
+                                        <td>
+                                            example@gmail.com
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
+                <div class="card" style="border: none; border-radius: 20px;">
                     <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                        <div>
+                        <img class="" src=" <?= base_url('img/front.png')?>"
+                        style="border-radius: 100%; width: 150px; height: 150px;">
+                        </img>
+                        </div>
+                        <h3 class="mt-3">
+                        Harriet King
+                        </h3>
+                        <p style="opacity: 75%;">CTO</p>
+                        
+                        <div class="">
+                            <table class="w-100">
+                                <tbody>
+                                    <tr>
+                                        <td class="text-end">
+                                            Email :
+                                        </td>
+                                        <td>
+                                            example@gmail.com
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>      
+            </div>
             <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
+                <div class="card" style="border: none; border-radius: 20px;">
                     <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                        <div>
+                        <img class="" src=" <?= base_url('img/front.png')?>"
+                        style="border-radius: 100%; width: 150px; height: 150px;">
+                        </img>
+                        </div>
+                        <h3 class="mt-3">
+                        Lenora Benson
+                        </h3>
+                        <p style="opacity: 75%;">Lead</p>
+                        
+                        <div class="">
+                            <table class="w-100">
+                                <tbody>
+                                    <tr>
+                                        <td class="text-end">
+                                            Email :
+                                        </td>
+                                        <td>
+                                            example@gmail.com
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>      
-            <div class="col-lg-3 col-md-3 mt-3 mb-3 text-center">
-                <div class="card">
-                    <img class="card-img-top mx-auto d-flex text-center " src=" <?= base_url('img/front.png')?>"
-                        style=" margin: auto">
-                    </img>
-                    <div class="card-body">
-                        <h5 class="card-title">Front End Developer</h5>
-                        <p class="card-text">Pembuatan antarmuka pengguna yang menarik, responsif, dan mudah digunakan
-                        </p>
-                        <a href="#" class="btn btn-primary">Lihat Kelas</a>
-                    </div>
-                </div>
-            </div>                 
-        </div>
+            </div>
     </div>
-    </div>
+</div>
     <?= $this->endSection();?>

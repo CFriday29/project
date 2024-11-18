@@ -21,7 +21,7 @@
 <body>
     <div class="container-fluid py-2">
         <h2>Add User</h2>
-          <form action="<?php echo site_url('user/save'); ?>" method="post" enctype="multipart/form-data">
+        <form action="<?= site_url('class/my_profile'); ?>" method="post" enctype="multipart/form-data">
             <div class="d-flex flex-column align-items-center mb-4">
                 <div class="bg-secondary d-flex align-items-center justify-content-center rounded mb-3" style="width: 100px; height: 100px;">
                     <span class="text-white">100 x 100</span>
