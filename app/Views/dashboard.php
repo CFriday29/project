@@ -24,7 +24,7 @@
     <div class="container-fluid py-2">
 
         <div class="row">
-            <h3 class="mb-0 h4 font-weight-bolder">Dashboard Coba Coba</h3>
+            <h3 class="mb-0 h4 font-weight-bolder">Dashboard</h3>
         </div>
         <div class="container">
             <img src="<?= base_url('img/Banner.png')?>" width="100%" height="100%">
